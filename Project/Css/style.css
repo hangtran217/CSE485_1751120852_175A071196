@@ -1,101 +1,238 @@
-/*Đây là phần body */
 body{
-	margin: 0px auto;/*Trái phải sát biên, Trên dưới cách đều 2 biên */
+    margin:0px auto;
 }
 
-/*Đây là phần header */
-#header{
-	height: 120px;
-	display: flex; /* thêm vào cha để Đưa các phần tử con về 1 hàng*/
-	justify-content: flex-start;
+#top-header{
+    display:flex;
+    background-color:#024282;
+    height: 36px;
 }
 
-#logo{
-	width: 25%;
+.contact{
+    width:33.33%;
+    color:#fdb913;
+    font-weight: 600;
+    display:flex;
+    align-items: center;
 }
 
-#menu{
-	width: 75%;
+.sub-menu{
+    width:40.33%;
+    display:flex;
+    
+    align-items: center;
+}
+.sub-menu a{
+    color:#fff;
+    text-decoration: none;
+    margin-right:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a{
-	color: #000;
-	font-size: 18px;
-	text-decoration: none;
-	margin-right: 30px ;
-	font-weight: bold;
+.search{
+    width:20%;
+    display:flex;
+    align-items: center;
+    color:#fff;
 }
 
-a:hover{
-	color: blue;
+.lang{
+    width:6.33%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-
-/*Đây là phần main */
-#main{
-	background-color: pink;
-	height: 200px;
+#main-header{
+    height: 100px;
+    background-color:#fff;
+    border-bottom:1px solid rgba(0,0,0,0.15);
+    display:flex;
 }
 
-#main ul{
-	display: flex;
-	list-style-type: none;
+.logo{
+    width:30%;
+    display:flex;
+    align-items: center;
+    margin-left:15px;
 }
 
+.main-menu{
+    width:70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.main-menu a{
+    text-decoration: none;
+    color:#000;
+    font-size:18px;
+    margin-right:20px;
+}
 
-#slideshows{
-	width: 80%;
+.main-menu a:hover{
+    color:green;
+}
+
+/* Bắt đầu Slideshow */
+
+#slideshow{
+    width: 80%;
 	margin: 0px auto;
+	height: 400px;
+	position: relative;
 }
-
 .images-list{
-	width: 100%;
+    width:100%;
+    display: flex;
+
 }
 
 .images-list img{
-	width: 100%;
+    width:100%;
+    height: 400px;
+}
+.image-title{
+    height: 90px;
+    background-color:rgba(1,2,3,0.4);
+    position: relative;
+    bottom:90px;
+    line-height: 90px;
 }
 
-.title{
-	height: 100px;
-	background-color: rgba(52,52,52,0.6);
-	position: relative;
-	bottom: 105px;
-	font-size: 40px;
-	color: #fff;
-	text-align: center;
-	line-height: 100px;
-	position: relative;
+.image-title h1{
+    margin:0px;
+    color:#fff;
+    text-align: center;
 }
 
-span{
-	display:inline-block;
-	font-weight: bold;
-	text-align: center;
-	width: 50px;
-
+#slideshow span{
+    display:inline-block;
+    color:black;
+    font-size:50px;
+    font-weight: bold;
+    width:60px;
+    background-color:#fff;
+    text-align: center;
+    border:2px solid olive;
+    border-radius: 50%;
 }
 
-#slide1{
-	width: 70%;
-	position: absolute;
-	font-size: 20px;
-	font-family: sans-serif;
+.arrow-l{
+    position: absolute;
+    top:50%;
+    left:60px;
+    transform: translate(-50%,-50%);
 }
 
-.arrow-left{
-	font-size: 40px;
-	position: absolute;
-	top:50%;
-	right: 150px;
-	transform: translate(50%, -50%);
+.arrow-r{
+    position: absolute;
+    top:50%;
+    right:60px;
+    transform: translate(50%,-50%);
 }
 
-.arrow-right{
-	font-size: 40px;
-	position: absolute;
-	top:50%;
-	right: 50px;
-	transform: translate(50%, -50%);
+.anhmain1{
+	list-style: none;
+}
+.ulmain1{
+	display: flex;
+}
+.main{
+	display: flex;
+}
+.ulmain2{
+	list-style: none;
+}
+.main0{
+	display: flex;
+}
+
+.ulmain01{
+	display: flex;
+}
+.limain02{
+	display: flex;
+}
+#footer{
+    display: flex;
+    background-color: #024282; 
+}
+body{
+    
+    margin: 0 auto;
+}
+li{
+     list-style: none; 
+}
+.word b{
+    font-weight: bolder;
+    font-size: 20.5px
+    
+}
+.table1{ 
+    width: 25%;
+    padding-left: 2.5cm;
+    margin-left: 80px;
+}
+.table2{
+    width: 25%;
+    font-weight: bolder;
+    font-size: 20.5px;
+    margin-left: 80px
+}
+.table3{
+    width: 25%;
+    margin-right: 1px;
+    margin-right: 0px
+}
+.table4{
+margin-right: 170px
+}
+ul.sub-page{
+    width: 300px;
+    height: 10px;
+.   
+}
+a.btn{
+    width: 50px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 50px
+   
+}
+.sub-page li{
+    margin-bottom: 8px;
+    background-color: #42719f;
+    border: 2px solid #42719f;
+    border-radius: 12px;
+    
+}
+i{
+      width: 30px;
+      height: 31.5px;
+}
+a:link {
+   
+    text-decoration: none;
+}
+ a:hover {
+    text-decoration: underline;
+    color: #990000;
+ }
+a{
+     color: white;
+     line-height: 30px;
+ }
+.TTvaBQ{
+     display: flex;
+}
+.TT{
+     width: 50%;
+     margin-left: 210px
+}
+.QQ{
+    width: 50%;
 }
