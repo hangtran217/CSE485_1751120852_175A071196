@@ -113,7 +113,7 @@
   bottom: 0;
   position: absolute;
   background: rgba(0,0,0,0.45);
-  width: 100%;
+  width: 80%;
   padding: 30px 20px;
 }
 .home .slide .line-slide h3{
@@ -315,7 +315,6 @@
 }
 .home .reason .slick-prev{
   left: 10px;
-  background-color: #024282;
 }
 .home .reason .slick-next{
   right: 10px;

@@ -14,6 +14,7 @@
 </head>
 <body>
 	<div class="home">
+		
 		<?php include('header.php') ?>
 			
 		<?php include('slideshow.php') ?>

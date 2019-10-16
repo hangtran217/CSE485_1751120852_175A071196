@@ -16,6 +16,7 @@
 					</form>
 					
 					<img src="http://ntt.edu.vn/web/frontend/images/ico-flagen.jpg">
+					<a class="col" href="admin/admin.php">Admin</a>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,100 @@
+body{
+	
+	font-size: 120%;
+	
+	background-repeat: no-repeat;
+	background-size:cover ;
+
+	
+	
+}
+
+.header{
+	width: 34%;
+	
+	margin: 70px auto 0px;
+	color: white;
+	
+	text-align: center;
+	
+	
+}
+h2{
+	margin-top: 10px;
+	
+}
+form
+{
+	width: 30%;
+	margin: 0 auto;
+	padding: 30px;
+	padding-top: 70px;
+}
+::-webkit-input-placeholder {color: rgb(233, 47, 47) }
+.input-group
+{  
+	margin: 20px auto;
+	text-align: center;
+	
+}
+
+.input-group input
+{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px; 
+	font-size: 15px; 
+	
+	
+}
+.input-group1{
+	text-align: center;
+}
+.input-group1 button{
+	width: 40%;
+
+	
+}
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: rgb(70, 192, 86);
+	border: none;
+	
+	text-align: center
+}
+.error{
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+.success{
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+	width: 30%;
+}
+.notification{
+	padding: 0.5rem;
+	color: red;
+	background-color: #e6e6e6;
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+	display: none;
+}
+.register{
+	margin-top: 20px;
+	color: rgb(231, 250, 57);
+	text-align: center
+}
+.register a{
+	color: red;
+}
