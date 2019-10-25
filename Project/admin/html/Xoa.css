@@ -1,0 +1,101 @@
+.content {
+    margin-left: 25%;
+    margin-top: -288px;
+}
+ 
+#header{
+    background-color: rgb(36, 35, 35);
+    
+    width: 100%;
+}
+.title{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+   
+}
+.title a {
+    margin-top: 10px
+}
+a{
+    color: white;
+
+}
+a:hover{
+    color: rgb(22, 221, 22)
+}
+.ad_logout{
+    margin-left: 1000px;
+    margin-top: -33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-group-vertical{
+    background-color: rgb(99, 98, 98);
+   
+   
+}
+ul li{
+   list-style: none;
+}
+.dropdown-item:active {
+    
+    text-decoration: none;
+    background-color: #4af1fd;
+}
+.row {
+    
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.nav-item{
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-item1{
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-item1 i{
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.nav-item1 i:hover{
+    color: rgb(22, 221, 22)
+}
+.nav-item1 a:hover{
+    color: rgb(22, 221, 22)
+}
+.dropdown-menu a:hover{
+    color: rgb(22, 221, 22)
+}
+#xoa{
+    color: black;
+}
+.title-module{
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+
+}
+
+    .table.list-course, table.list-course td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table{
+        margin-top: 40px;
+        background-color:whitesmoke;
+        color: honeydew;
+    }
+    .name{
+        background-color:gray;
+        color: lavender;
+    }
+body{
+    position: relative;
+    z-index: 100%;
+    
+}
